@@ -11,7 +11,7 @@ body {
 .sect-1 {
   background-color: white;
   width: 100%;
-  /* min-height: 50vh; */
+  min-height: 50vh;
   border-bottom: 8px solid lightgrey;
 }
 .sect-1 span {
@@ -20,8 +20,8 @@ body {
 }
 .header {
   max-width: 1180px;
-  width: 100%;
   margin: auto;
+  /* width: 100%; */
 }
 .header p:first-of-type {
   max-width: 540px;
@@ -29,7 +29,7 @@ body {
 .sect-2 {
   background-color: grey;
   width: 100%;
-  /* min-height: 50vh; */
+  min-height: 50vh;
   padding: 70px 0;
 }
 .sect-2 article {
@@ -45,6 +45,7 @@ body {
   position: relative;
   top: -15px;
   left: -25px;
+  width: 700px;
   /* padding: clamp(8px, 3vw, 15px);
   width: clamp(470px, 50vw, 590px);
   font-size: clamp(1rem, 5.8vw, 2.1rem); */
@@ -55,9 +56,9 @@ body {
 @media (min-width: 320px) {
   /* Adjustments for mobile screens */
   .header {
-    /* width: 100%; */
     padding: 80px 35px;
     /* margin: auto; */
+    /* width: 100%; */
   }
   .header h1 {
     font-size: 2rem;
@@ -88,7 +89,7 @@ body {
     /* margin: auto; */
   }
   .sect-2 article h1 {
-    width: 590px;
+    width: 550px;
     font-size: 2rem;
   }
   .sect-2 article p {
@@ -98,7 +99,7 @@ body {
 @media (min-width: 900px) {
   /* Adjustments for laptop screens */
   .sect-1 {
-    /* padding-left: 200px; */
+    padding-left: 0;
   }
   .header {
     /* max-width: 540px; */
@@ -110,7 +111,7 @@ body {
   }
   .sect-2 article h1 {
     font-size: 2rem;
-    width: 550px;
+    max-width: 550px;
   }
   .sect-2 article p {
     font-size: 1.8rem;
